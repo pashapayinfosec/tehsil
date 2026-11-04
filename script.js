@@ -17,7 +17,7 @@ document.querySelectorAll('.reveal').forEach(el => io.observe(el));
 
 // Registration form -> WhatsApp
 const WHATSAPP = '994557812525';
-document.getElementById('form').addEventListener('submit', e => {
+document.getElementById('form')?.addEventListener('submit', e => {
   e.preventDefault();
   const f = new FormData(e.target);
   const text =
