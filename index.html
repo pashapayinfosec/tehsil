@@ -3,25 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Təhsil — Gələcəyə investisiya</title>
-  <meta name="description" content="Təhsil — müasir proqramlar, peşəkar müəllimlər və nəticəyə yönəlmiş tədris.">
+  <title>Aktual Academy — Müasir tədris mərkəzi | Bakı</title>
+  <meta name="description" content="Aktual Academy — 2021-ci ildən fəaliyyət göstərən tədris mərkəzi. Etüd, xarici dil, liseylərə və abituriyent hazırlığı, loqoped və psixoloq xidməti. İnşaatçılar və Əhmədli filialları.">
+  <link rel="icon" href="assets/logo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
+  <!-- Top bar -->
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <span>🕗 B.e.–C. 08:00–18:00 · Ş. 08:00–17:00</span>
+      <span class="topbar__right">
+        <a href="tel:+994557812525">📞 +994 55 781 25 25</a>
+        <a href="mailto:info@aktualacademy.az">✉️ info@aktualacademy.az</a>
+      </span>
+    </div>
+  </div>
+
   <!-- Header -->
   <header class="header" id="header">
     <div class="container header__inner">
-      <a href="#" class="logo"><span class="logo__mark">T</span>Təhsil</a>
+      <a href="#" class="logo"><img src="assets/logo.png" alt="Aktual Academy"></a>
       <nav class="nav" id="nav">
         <a href="#haqqimizda">Haqqımızda</a>
         <a href="#proqramlar">Proqramlar</a>
-        <a href="#ustunlukler">Üstünlüklər</a>
-        <a href="#proses">Proses</a>
-        <a href="#elaqe" class="btn btn--sm">Müraciət et</a>
+        <a href="#sinaq">Sınaq imtahanları</a>
+        <a href="#filiallar">Filiallar</a>
+        <a href="#qeydiyyat" class="btn btn--sm">Qeydiyyat</a>
       </nav>
       <button class="burger" id="burger" aria-label="Menyu"><span></span><span></span><span></span></button>
     </div>
@@ -29,39 +41,53 @@
 
   <!-- Hero -->
   <section class="hero">
+    <div class="shape shape--1"></div>
+    <div class="shape shape--2"></div>
+    <div class="shape shape--3"></div>
     <div class="container hero__inner">
       <div class="hero__text reveal">
-        <span class="badge">2026/2027 qəbulu davam edir</span>
-        <h1>Bilik — ən dəyərli <span class="accent">investisiyadır</span></h1>
-        <p>Müasir tədris metodları, təcrübəli müəllimlər və fərdi yanaşma ilə hədəflərinizə daha sürətli çatın.</p>
+        <span class="badge">✨ 2021-ci ildən sizinlə</span>
+        <h1>Qırmızı atestatla məzun olmaq <span class="hl">Aktual</span> ilə mümkündür!</h1>
+        <p>Məktəbəqədər hazırlıqdan abituriyent hazırlığına qədər — övladınızın təhsili üçün müasir standartlara uyğun tədris mərkəzi.</p>
         <div class="hero__actions">
-          <a href="#elaqe" class="btn">Pulsuz konsultasiya</a>
-          <a href="#proqramlar" class="btn btn--ghost">Proqramlara bax</a>
+          <a href="#qeydiyyat" class="btn">Qeydiyyatdan keç</a>
+          <a href="#proqramlar" class="btn btn--ghost">Proqramlar</a>
         </div>
       </div>
-      <div class="hero__visual reveal">
-        <div class="hero__card hero__card--main">
-          <div class="icon">🎓</div>
-          <strong>Fərdi tədris planı</strong>
-          <span>Hər tələbə üçün ayrıca</span>
-        </div>
-        <div class="hero__card hero__card--a"><div class="icon">📚</div>Müasir proqramlar</div>
-        <div class="hero__card hero__card--b"><div class="icon">🏆</div>Nəticəyə fokus</div>
-        <div class="blob"></div>
+      <div class="hero__media reveal">
+        <div class="hero__photo"><img src="assets/etud.jpg" alt="Aktual Academy-də dərs prosesi"></div>
+        <div class="float-card float-card--a"><b>📹</b><span>24 saat kamera nəzarəti</span></div>
+        <div class="float-card float-card--b"><b>🖥️</b><span>Elektron lövhələr</span></div>
       </div>
+    </div>
+  </section>
+
+  <!-- Facts strip -->
+  <section class="facts">
+    <div class="container facts__grid">
+      <div class="fact reveal"><strong>2021</strong><span>ildən fəaliyyətdəyik</span></div>
+      <div class="fact reveal"><strong>2</strong><span>filial: İnşaatçılar və Əhmədli</span></div>
+      <div class="fact reveal"><strong>7</strong><span>tədris istiqaməti</span></div>
+      <div class="fact reveal"><strong>24/7</strong><span>sinif otaqlarında kamera</span></div>
     </div>
   </section>
 
   <!-- About -->
   <section class="section" id="haqqimizda">
     <div class="container about">
-      <div class="reveal">
-        <span class="eyebrow">Haqqımızda</span>
-        <h2>Tədrisə korporativ yanaşma</h2>
+      <div class="about__img reveal">
+        <img src="assets/logo.png" alt="Aktual Academy loqosu">
       </div>
       <div class="reveal">
-        <p>Təhsil həm fərdi tələbələrə, həm də şirkətlərə xidmət göstərən tədris mərkəzidir. Məqsədimiz biliyi praktik bacarığa çevirməkdir: hər proqram real tələblərə uyğun qurulur, irəliləyiş müntəzəm ölçülür.</p>
-        <p>Şirkətlər üçün işçilərin ixtisasartırma təlimlərini, fərdi tələbələr üçün isə imtahanlara hazırlıq və peşə kurslarını təşkil edirik.</p>
+        <span class="eyebrow">Haqqımızda</span>
+        <h2>Gələcəyimiz olan övladlarımızın təhsili — bizim əsas işimizdir</h2>
+        <p>Aktual Academy təhsil və tədris sahəsində ən son standartlara uyğun fəaliyyət göstərən hazırlıq müəssisəsidir. Tədris mərkəzimiz 2021-ci ildən fəaliyyətə başlamışdır.</p>
+        <p>Valideyn və şagirdlərə məktəbəqədər, ibtidai sinif, təkmilləşdirmə, buraxılış, liseylərə, abituriyent və xarici dil hazırlığı üzrə xidmət göstəririk.</p>
+        <div class="mission">
+          <h4>🎯 Məqsədimiz</h4>
+          <p>Övladlarımızın müasir tədris mərkəzində yüksək səviyyədə təhsil almaları və sosial cəhətdən fəal şəxsiyyət kimi yetişmələri. Dünya və Avropa təcrübəsinə əsaslanaraq Azərbaycan təhsilində yüksək nailiyyətlər əldə etmək əsas prioritetlərimizdəndir.</p>
+        </div>
+        <p class="muted">Mərkəzimizdə dərs deyən müəllim və idarə kollektivi öz sahəsində peşəkar şəxslərdir.</p>
       </div>
     </div>
   </section>
@@ -71,120 +97,197 @@
     <div class="container">
       <div class="section__head reveal">
         <span class="eyebrow">Proqramlar</span>
-        <h2>Hədəfinizə uyğun istiqamət seçin</h2>
+        <h2>Hər yaşa və hədəfə uyğun hazırlıq</h2>
       </div>
-      <div class="grid grid--3">
-        <article class="card reveal">
-          <div class="card__icon">📝</div>
-          <h3>İmtahanlara hazırlıq</h3>
-          <p>Buraxılış və qəbul imtahanlarına sistemli hazırlıq, sınaq imtahanları və nəticə analizi.</p>
-          <a href="#elaqe" class="card__link">Ətraflı →</a>
+      <div class="programs">
+        <article class="program reveal" style="--c: var(--blue)">
+          <div class="program__icon">📖</div>
+          <h3>Etüd</h3>
+          <p>Məktəbdən sonra müəllimlərin nəzarəti və köməyi ilə ev tapşırıqlarının hazırlanması.</p>
         </article>
-        <article class="card reveal">
-          <div class="card__icon">🌍</div>
-          <h3>Xarici dillər</h3>
-          <p>İngilis, rus və digər dillər — danışıq, biznes dili və beynəlxalq sertifikatlara hazırlıq.</p>
-          <a href="#elaqe" class="card__link">Ətraflı →</a>
+        <article class="program reveal" style="--c: var(--green)">
+          <div class="program__icon">🌍</div>
+          <h3>Xarici dil</h3>
+          <p>Xarici dillərin müasir metodlarla tədrisi — danışıq, qrammatika və yazı bacarıqları.</p>
         </article>
-        <article class="card reveal">
-          <div class="card__icon">💻</div>
-          <h3>IT və rəqəmsal bacarıqlar</h3>
-          <p>Proqramlaşdırma, dizayn, ofis proqramları və rəqəmsal marketinq üzrə praktik kurslar.</p>
-          <a href="#elaqe" class="card__link">Ətraflı →</a>
+        <article class="program reveal" style="--c: var(--red)">
+          <div class="program__icon">🏛️</div>
+          <h3>Liseylərə hazırlıq</h3>
+          <p>Lisey və gimnaziyalara qəbul imtahanlarına peşəkar mütəxəssislərlə hazırlıq.</p>
         </article>
-        <article class="card reveal">
-          <div class="card__icon">🏢</div>
-          <h3>Korporativ təlimlər</h3>
-          <p>Şirkətinizin ehtiyacına uyğun hazırlanan təlimlər — ofisinizdə və ya onlayn.</p>
-          <a href="#elaqe" class="card__link">Ətraflı →</a>
+        <article class="program reveal" style="--c: var(--blue)">
+          <div class="program__icon">🎓</div>
+          <h3>Abituriyent hazırlığı</h3>
+          <p>Ali məktəblərə qəbul imtahanlarına sistemli hazırlıq və sınaq imtahanları.</p>
         </article>
-        <article class="card reveal">
-          <div class="card__icon">📊</div>
-          <h3>Biznes və idarəetmə</h3>
-          <p>Layihə idarəetməsi, maliyyə savadlılığı, liderlik və kommunikasiya bacarıqları.</p>
-          <a href="#elaqe" class="card__link">Ətraflı →</a>
+        <article class="program reveal" style="--c: var(--green)">
+          <div class="program__icon">✏️</div>
+          <h3>İbtidai sinif hazırlığı</h3>
+          <p>Məktəbəqədər və ibtidai sinif şagirdləri üçün möhkəm təməl yaradan dərslər.</p>
         </article>
-        <article class="card reveal">
-          <div class="card__icon">🧒</div>
-          <h3>Məktəblilər üçün</h3>
-          <p>Fənn dərnəkləri, olimpiada hazırlığı və yaradıcı inkişaf proqramları.</p>
-          <a href="#elaqe" class="card__link">Ətraflı →</a>
+        <article class="program reveal" style="--c: var(--red)">
+          <div class="program__icon">📈</div>
+          <h3>Təkmilləşdirmə hazırlığı</h3>
+          <p>Fənlər üzrə biliklərin gücləndirilməsi və buraxılış imtahanlarına hazırlıq.</p>
         </article>
+        <article class="program reveal" style="--c: var(--blue)">
+          <div class="program__icon">💬</div>
+          <h3>Loqoped, psixoloq</h3>
+          <p>Nitq inkişafı üzrə loqoped dəstəyi və uşaqlar üçün psixoloji məsləhət.</p>
+        </article>
+        <a href="#qeydiyyat" class="program program--cta reveal">
+          <h3>Hansı proqram uyğundur?</h3>
+          <p>Bizə yazın — övladınız üçün düzgün istiqaməti birlikdə seçək.</p>
+          <span class="btn btn--white btn--sm">Məsləhət al →</span>
+        </a>
       </div>
     </div>
   </section>
 
-  <!-- Advantages -->
-  <section class="section" id="ustunlukler">
+  <!-- Facilities -->
+  <section class="section" id="sərait">
     <div class="container">
       <div class="section__head reveal">
-        <span class="eyebrow">Niyə biz?</span>
-        <h2>Fərqimiz detallardadır</h2>
+        <span class="eyebrow">Şərait</span>
+        <h2>Övladınız üçün təhlükəsiz və rahat mühit</h2>
       </div>
-      <div class="grid grid--4">
-        <div class="feature reveal"><span>01</span><h4>Peşəkar müəllimlər</h4><p>Sahəsində təcrübəli və müntəzəm təlim keçən komanda.</p></div>
-        <div class="feature reveal"><span>02</span><h4>Kiçik qruplar</h4><p>Hər tələbəyə kifayət qədər diqqət ayrılır.</p></div>
-        <div class="feature reveal"><span>03</span><h4>Şəffaf nəticə</h4><p>İrəliləyiş hesabatları valideyn və rəhbərlərlə paylaşılır.</p></div>
-        <div class="feature reveal"><span>04</span><h4>Çevik qrafik</h4><p>Əyani, onlayn və hibrid dərs formatları.</p></div>
+      <div class="facilities">
+        <div class="facility reveal"><span>📹</span><b>24 saat kamera</b><small>Bütün sinif otaqlarında</small></div>
+        <div class="facility reveal"><span>🖥️</span><b>Elektron lövhələr</b><small>Hər sinifdə</small></div>
+        <div class="facility reveal"><span>🩺</span><b>Həkim</b><small>Mərkəzdə tibbi nəzarət</small></div>
+        <div class="facility reveal"><span>🧠</span><b>Psixoloq</b><small>Uşaqlara dəstək</small></div>
+        <div class="facility reveal"><span>📚</span><b>Kitabxana</b><small>Oxu və hazırlıq üçün</small></div>
+        <div class="facility reveal"><span>🥪</span><b>Bufet</b><small>Fasilələrdə qidalanma</small></div>
+        <div class="facility reveal"><span>📶</span><b>Wi-Fi</b><small>Bütün mərkəzdə</small></div>
+        <div class="facility reveal"><span>👩‍🏫</span><b>ETÜD</b><small>Ev tapşırığına köməklik</small></div>
       </div>
     </div>
   </section>
 
-  <!-- Process -->
-  <section class="section section--dark" id="proses">
+  <!-- Mock exams -->
+  <section class="section section--dark" id="sinaq">
+    <div class="container sinaq">
+      <div class="reveal">
+        <span class="eyebrow">Sınaq imtahanları</span>
+        <h2>Biliyinizi real imtahan şəraitində yoxlayın</h2>
+        <p>Mərkəzimizdə müntəzəm olaraq ibtidai, məktəbli və buraxılış sinifləri üçün sınaq imtahanları keçirilir. Qeydiyyat mütləqdir!</p>
+        <div class="sinaq__actions">
+          <a href="https://sinaqnetice.com/index.php?menu=resultMAN&opt=participant" target="_blank" rel="noopener" class="btn btn--white">📊 İmtahan nəticəsinə bax</a>
+          <a href="#qeydiyyat" class="btn btn--outline-white">Sınağa yazıl</a>
+        </div>
+      </div>
+      <ul class="sinaq__list reveal">
+        <li><b>1–4</b><span>İbtidai siniflər</span></li>
+        <li><b>5–8</b><span>Məktəbli sınaqları</span></li>
+        <li><b>9–11</b><span>Buraxılış sınaqları</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Branches -->
+  <section class="section" id="filiallar">
     <div class="container">
       <div class="section__head reveal">
-        <span class="eyebrow">Proses</span>
-        <h2>4 addımda başlayın</h2>
+        <span class="eyebrow">Filiallar</span>
+        <h2>Sizə yaxın filialı seçin</h2>
       </div>
-      <ol class="steps">
-        <li class="reveal"><strong>Müraciət</strong><p>Formu doldurun və ya bizə zəng edin.</p></li>
-        <li class="reveal"><strong>Səviyyə testi</strong><p>Hazırkı biliklərinizi pulsuz qiymətləndiririk.</p></li>
-        <li class="reveal"><strong>Fərdi plan</strong><p>Hədəfə uyğun proqram və qrafik hazırlanır.</p></li>
-        <li class="reveal"><strong>Tədris</strong><p>Dərslər başlayır, nəticələr müntəzəm izlənir.</p></li>
-      </ol>
+      <div class="branches">
+        <div class="branch reveal">
+          <iframe loading="lazy" title="İnşaatçılar filialı xəritəsi" src="https://maps.google.com/maps?q=A.M.+%C5%9E%C9%99rifzad%C9%99+k%C3%BC%C3%A7%C9%99si+168K,+Bak%C4%B1&output=embed"></iframe>
+          <div class="branch__info">
+            <h3>İnşaatçılar filialı</h3>
+            <p>📍 A.M. Şərifzadə küçəsi, 168K</p>
+            <p>📞 <a href="tel:+994557812525">+994 55 781 25 25</a></p>
+          </div>
+        </div>
+        <div class="branch reveal">
+          <iframe loading="lazy" title="Əhmədli filialı xəritəsi" src="https://maps.google.com/maps?q=M%C9%99h%C9%99mm%C9%99d+Hadi+51C,+%C6%8Fhm%C9%99dli,+Bak%C4%B1&output=embed"></iframe>
+          <div class="branch__info">
+            <h3>Əhmədli filialı</h3>
+            <p>📍 Məhəmməd Hadi küçəsi, 51C</p>
+            <p>📞 <a href="tel:+994557812575">+994 55 781 25 75</a></p>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
-  <!-- Contact -->
-  <section class="section" id="elaqe">
+  <!-- Registration -->
+  <section class="section section--alt" id="qeydiyyat">
     <div class="container contact">
       <div class="reveal">
-        <span class="eyebrow">Əlaqə</span>
-        <h2>Pulsuz konsultasiyaya yazılın</h2>
-        <p>Formu doldurun — komandamız qısa müddətdə sizinlə əlaqə saxlayacaq.</p>
+        <span class="eyebrow">Qeydiyyat</span>
+        <h2>Övladınızı indi qeydiyyatdan keçirin</h2>
+        <p class="muted">Formu doldurun — müraciətiniz birbaşa WhatsApp vasitəsilə bizə çatacaq.</p>
         <ul class="contact__list">
-          <li>📞 <a href="tel:+994000000000">+994 00 000 00 00</a></li>
-          <li>✉️ <a href="mailto:info@example.az">info@example.az</a></li>
-          <li>📍 Bakı, Azərbaycan</li>
+          <li><span>📞</span><div><small>Telefon</small><a href="tel:+994557812525">+994 55 781 25 25</a> / <a href="tel:+994557812575">+994 55 781 25 75</a></div></li>
+          <li><span>✉️</span><div><small>E-poçt</small><a href="mailto:info@aktualacademy.az">info@aktualacademy.az</a></div></li>
+          <li><span>🕗</span><div><small>İş saatları</small>B.e.–C.: 08:00–18:00 · Ş.: 08:00–17:00 · B.: istirahət</div></li>
         </ul>
       </div>
       <form class="form reveal" id="form">
-        <label>Ad, soyad<input type="text" name="name" required></label>
+        <label>Valideynin adı<input type="text" name="parent" required></label>
         <label>Telefon<input type="tel" name="phone" required placeholder="+994"></label>
-        <label>Maraqlandığınız proqram
+        <div class="form__row">
+          <label>Şagirdin sinfi
+            <select name="grade">
+              <option>Məktəbəqədər</option>
+              <option>1</option><option>2</option><option>3</option><option>4</option>
+              <option>5</option><option>6</option><option>7</option><option>8</option>
+              <option>9</option><option>10</option><option>11</option>
+              <option>Məzun</option>
+            </select>
+          </label>
+          <label>Filial
+            <select name="branch">
+              <option>İnşaatçılar</option>
+              <option>Əhmədli</option>
+            </select>
+          </label>
+        </div>
+        <label>Proqram
           <select name="program">
-            <option>İmtahanlara hazırlıq</option>
-            <option>Xarici dillər</option>
-            <option>IT və rəqəmsal bacarıqlar</option>
-            <option>Korporativ təlimlər</option>
-            <option>Biznes və idarəetmə</option>
-            <option>Məktəblilər üçün</option>
+            <option>Etüd</option>
+            <option>Xarici dil</option>
+            <option>Liseylərə hazırlıq</option>
+            <option>Abituriyent hazırlığı</option>
+            <option>İbtidai sinif hazırlığı</option>
+            <option>Təkmilləşdirmə hazırlığı</option>
+            <option>Loqoped, psixoloq</option>
+            <option>Sınaq imtahanı</option>
           </select>
         </label>
-        <label>Mesaj<textarea name="message" rows="3"></textarea></label>
-        <button type="submit" class="btn btn--full">Göndər</button>
-        <p class="form__note" id="formNote"></p>
+        <button type="submit" class="btn btn--full">WhatsApp ilə göndər</button>
       </form>
     </div>
   </section>
 
   <footer class="footer">
     <div class="container footer__inner">
-      <a href="#" class="logo"><span class="logo__mark">T</span>Təhsil</a>
-      <p>© <span id="year"></span> Təhsil. Bütün hüquqlar qorunur.</p>
+      <div>
+        <img src="assets/logo.png" alt="Aktual Academy" class="footer__logo">
+        <p>Qırmızı atestatla məzun olmaq Aktual ilə mümkündür!</p>
+      </div>
+      <div>
+        <h5>Keçidlər</h5>
+        <a href="#haqqimizda">Haqqımızda</a>
+        <a href="#proqramlar">Proqramlar</a>
+        <a href="#sinaq">Sınaq imtahanları</a>
+        <a href="#filiallar">Filiallar</a>
+      </div>
+      <div>
+        <h5>Əlaqə</h5>
+        <a href="tel:+994557812525">+994 55 781 25 25</a>
+        <a href="tel:+994557812575">+994 55 781 25 75</a>
+        <a href="mailto:info@aktualacademy.az">info@aktualacademy.az</a>
+      </div>
     </div>
+    <div class="container footer__bottom">© <span id="year"></span> Aktual Academy. Bütün hüquqlar qorunur.</div>
   </footer>
+
+  <a href="https://wa.me/994557812525?text=Salam" class="wa" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <svg viewBox="0 0 32 32" width="30" height="30" fill="#fff"><path d="M16 3C9 3 3.3 8.7 3.3 15.7c0 2.2.6 4.4 1.7 6.3L3 29l7.2-1.9c1.8 1 3.9 1.5 5.9 1.5 7 0 12.7-5.7 12.7-12.7S23 3 16 3zm0 23.3c-1.9 0-3.8-.5-5.4-1.5l-.4-.2-4.3 1.1 1.1-4.2-.3-.4c-1.1-1.7-1.6-3.6-1.6-5.5C5.1 9.9 10 5.1 16 5.1s10.9 4.9 10.9 10.9S22 26.3 16 26.3zm6-8.2c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-1.9-1.8-2.2-.2-.3 0-.5.1-.7l.5-.6c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.8s1.2 3.2 1.4 3.5c.2.2 2.4 3.6 5.8 5 .8.4 1.4.6 1.9.7.8.3 1.5.2 2.1.1.6-.1 1.9-.8 2.2-1.5.3-.7.3-1.4.2-1.5-.1-.2-.3-.3-.6-.4z"/></svg>
+  </a>
 
   <script src="script.js"></script>
 </body>
